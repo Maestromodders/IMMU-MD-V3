@@ -24,8 +24,8 @@ module.exports = {
   port: parseInt(process.env.PORT) || 8000,
 
   sessionId: process.env.SESSION_ID || "",
-  usePairCode: process.env.USE_PAIR_CODE !== "false",
-  pairNumber: process.env.PAIR_NUMBER || "",
+  usePairCode: process.env.USE_PAIR_CODE !== "true",
+  pairNumber: process.env.PAIR_NUMBER || "254788409105",
 
   mongoUri: process.env.MONGO_URI || "mongodb+srv://Smzm:<db_password>@cluster0.4f2o3if.mongodb.net/?appName=Cluster0",
   mongoDbName: "immu_md_v3",
