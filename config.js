@@ -27,7 +27,7 @@ module.exports = {
   usePairCode: process.env.USE_PAIR_CODE !== "false",
   pairNumber: process.env.PAIR_NUMBER || "",
 
-  mongoUri: process.env.MONGO_URI || "",
+  mongoUri: process.env.MONGO_URI || "mongodb+srv://Smzm:<db_password>@cluster0.4f2o3if.mongodb.net/?appName=Cluster0",
   mongoDbName: "immu_md_v3",
 
   alwaysOnline: true,
